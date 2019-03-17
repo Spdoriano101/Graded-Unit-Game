@@ -9,10 +9,30 @@ public class Player_Script : MonoBehaviour {
 
     private Animator myAnimator;
 
+    //Aloows this to be seen from the inspector
     [SerializeField]
     private float movementSpeed;
 
     private bool facingRight;
+
+
+    //All for detecting the ground for the player and allowing them to jump
+    [SerializeField]
+    private Transform[] groundPoints;
+
+    [SerializeField]
+    private float groundRadius;
+
+    [SerializeField]
+    private LayerMask whatIsGround;
+
+    private bool isGrounded;
+
+    private bool Jump;
+
+    [SerializeField]
+    private float jumpForce;
+    //---------------------------------------------------
 
 	// Use this for initialization
 	void Start () {
@@ -30,7 +50,10 @@ public class Player_Script : MonoBehaviour {
 	void FixedUpdate () {
 
         float horizontal = Input.GetAxis("Horizontal");
-        
+
+        //Variable will be = to the function below
+        isGrounded = IsGrounded();
+
         //Calls the handleMovement function to use and also links the "Horizontal" data to the HandleMovement function
         HandleMovement(horizontal);
 
@@ -47,7 +70,33 @@ public class Player_Script : MonoBehaviour {
 
         myAnimator.SetFloat("Speed", Mathf.Abs(horizontal));
 
+        if (isGrounded && Jump)
+        {
+
+            isGrounded = false;
+
+            myRigidbody.AddForce(new Vector2(0, jumpForce));
+
+        }
+
     }
+
+
+    private void handleInput()
+    {
+        //Stes the input key for jumping to space
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+
+            Jump = true;
+
+        }
+
+
+    }
+
+
+
 
     //Function used to flip the character
     private void Flip(float horizontal)
@@ -71,5 +120,36 @@ public class Player_Script : MonoBehaviour {
 
         }
 
+    }
+
+    private bool IsGrounded()
+    {
+
+        //checks if velocity is less than 0
+        if (myRigidbody.velocity.y <= 0)
+        {
+
+            foreach (Transform point in groundPoints)
+            {
+
+                Collider2D[] colliders = Physics2D.OverlapCircleAll(point.position, groundRadius, whatIsGround);
+
+                for (int i = 0; i < colliders.Length; i++)
+                {
+
+                    if (colliders[i].gameObject != gameObject)
+                    {
+
+                        return true;
+
+                    }
+
+                }
+
+            }
+
+        }
+
+        return false; 
     }
 }
