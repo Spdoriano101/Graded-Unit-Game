@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Jump : MonoBehaviour {
 
-    [Range(1, 10)]
+    [Range(1, 100)]
     public float jumpVelocity;
 
     public Collider2D playerCollider;
