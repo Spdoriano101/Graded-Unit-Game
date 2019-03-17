@@ -7,6 +7,8 @@ public class Player_Script : MonoBehaviour {
     //COntainer for the rigid body
     private Rigidbody2D myRigidbody;
 
+    private Animator myAnimator;
+
     [SerializeField]
     private float movementSpeed;
 
@@ -21,6 +23,7 @@ public class Player_Script : MonoBehaviour {
         //Reference to the players rigidbody
         myRigidbody = GetComponent<Rigidbody2D>();
 
+        myAnimator = GetComponent<Animator>();
 	}
 	
 	//Keeps the movment of the player constant reguardless of FPS
@@ -41,6 +44,8 @@ public class Player_Script : MonoBehaviour {
     {
         //Controls the speed of the characater movement
         myRigidbody.velocity = new Vector2(horizontal * movementSpeed, myRigidbody.velocity.y);
+
+        myAnimator.SetFloat("Speed", Mathf.Abs(horizontal));
 
     }
 

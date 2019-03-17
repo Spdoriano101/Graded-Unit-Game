@@ -9,9 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Modern_Lab_Platform_mini
+  m_Name: Modern Lab Platform Vertical
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 21300000, guid: 5ee354bf3ebf8324b8844f932e7b3f3d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 686f1d06c0528a545ab9ad06e54e6201, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
