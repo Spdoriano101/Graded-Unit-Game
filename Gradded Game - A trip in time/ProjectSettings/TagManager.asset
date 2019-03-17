@@ -5,7 +5,6 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
-  - Coin
   - Background
   layers:
   - Default
@@ -17,7 +16,7 @@ TagManager:
   - 
   - 
   - Ground
-  - Coin
+  - 
   - background
   - 
   - 
@@ -49,9 +48,6 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 961214675
-    locked: 0
-  - name: Coin
-    uniqueID: 3409796023
     locked: 0
   - name: Pickups
     uniqueID: 56915549
