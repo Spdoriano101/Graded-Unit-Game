@@ -74,27 +74,30 @@ public class Player : MonoBehaviour
         //Animation for the animator script
         playerAnimator.SetFloat("Walk", Mathf.Abs(leftRight));
 
+       
+        
+        
         // Jumping
 
         //Detect sprite touching the ground
         //Get the LayerMask from Unity using the name of the layer
-        LayerMask groundLayerMask = LayerMask.GetMask("Ground");
+        //LayerMask groundLayerMask = LayerMask.GetMask("Ground");
 
         //Ask the player's collider if it is touching the LayerMask
-        bool touchingGround = playerCollider.IsTouchingLayers(groundLayerMask);
+       //bool touchingGround = playerCollider.IsTouchingLayers(groundLayerMask);
 
         //Detects input of jump button
-        bool jumpButtonPressed = Input.GetButtonDown(jumpButton);
+        //bool jumpButtonPressed = Input.GetButtonDown(jumpButton);
 
-        if (jumpButtonPressed == true && touchingGround == true)
-        {
+       // if (jumpButtonPressed == true && touchingGround == true)
+       // {
             //pressed Jump so should set upward velocity to jumpSpeed
-            velocity.y = jumpSpeed;
-
-            //Give the velocity to the rigidbody
-            physicsBody.velocity = velocity;
-        }
-
+         //   velocity.y = jumpSpeed;
+        //
+           //Give the velocity to the rigidbody
+          //  physicsBody.velocity = velocity;
+       // }
+    
     }
 
 
