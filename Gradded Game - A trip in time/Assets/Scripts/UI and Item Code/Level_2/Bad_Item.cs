@@ -11,36 +11,36 @@ public class Bad_Item : MonoBehaviour
 
     public AudioSource Audio;
 
-    // Use this for initialization
+    
     void Start()
     {
 
-        //Asking the program to then retrive the audio source file and apply it to Coin_Pickup
+        
 
 
 
     }
 
 
-    //Unity calls this function when coin touches any other object in the game
-    // If the player touched the coin, it should vanish and the score should increase
+    //Unity calls this function when Item touches any other object in the game
+    // If the player touched the Item, it should vanish and the score should increase
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        //Check if the thing we touched was the player 
+        //Check if the object that collided with the item was the player
         Player playerScript = collision.collider.GetComponent<Player>();
-        //Player2 playerScript2 = collision.collider.GetComponent<Player2>();
+       
 
         //If the player collides with an object or asset(s) that 
         //Have a playerscript attached to it
         if (playerScript)
         {
 
-
+            Audio.Play();
 
 
             Score.scoreValue -= 70;
             // Destroy the gameObject that this script is attracted to
-            // (the coin) 
+            
 
 
 
