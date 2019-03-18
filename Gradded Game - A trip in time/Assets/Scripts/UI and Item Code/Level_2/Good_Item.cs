@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Good_Item_Metal_Sheet : MonoBehaviour {
+public class Good_Item : MonoBehaviour {
 
     //Setting the audio source 
 
@@ -37,7 +37,7 @@ public class Good_Item_Metal_Sheet : MonoBehaviour {
 
 
 
-            Score.scoreValue += 50;
+            Score.scoreValue += 100;
             // Destroy the gameObject that this script is attracted to
             // (the coin) 
 
