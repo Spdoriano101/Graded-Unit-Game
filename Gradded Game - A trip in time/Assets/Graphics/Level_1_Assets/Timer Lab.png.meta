@@ -94,9 +94,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2160
-        width: 1602
-        height: 432
+        y: 400
+        width: 320
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -104,7 +104,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82efb8b2acd3f2c43a0c2c95bcd6a00e
+      spriteID: c060f5426e51a7a4c8c4a25153e8cd68
       vertices: []
       indices: 
       edges: []
@@ -113,10 +113,10 @@ TextureImporter:
       name: Timer Lab_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1728
-        width: 1602
-        height: 432
+        x: 320
+        y: 400
+        width: 320
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,7 +124,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7cfd5188751b2724493853b6d189d59f
+      spriteID: 5861c19e7094f6245ba08f0e90e03c72
       vertices: []
       indices: 
       edges: []
@@ -133,10 +133,10 @@ TextureImporter:
       name: Timer Lab_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1296
-        width: 1602
-        height: 432
+        x: 640
+        y: 400
+        width: 320
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,7 +144,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82af51907b276e64a81d2d6594297c2c
+      spriteID: d3c7ae5e7f9297f4cad421fc1fb1ddbc
       vertices: []
       indices: 
       edges: []
@@ -154,9 +154,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 864
-        width: 1602
-        height: 432
+        y: 0
+        width: 320
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,7 +164,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e3747738fbf2534e9eafdeaaf876350
+      spriteID: b4312ace28b9d7e4495f391d7f48769d
       vertices: []
       indices: 
       edges: []
@@ -173,10 +173,10 @@ TextureImporter:
       name: Timer Lab_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 432
-        width: 1602
-        height: 432
+        x: 320
+        y: 0
+        width: 320
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,7 +184,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8e3e8968baba804aa678199a212dcd7
+      spriteID: 111e35e7320402747845b6b68242d296
       vertices: []
       indices: 
       edges: []
@@ -193,10 +193,10 @@ TextureImporter:
       name: Timer Lab_5
       rect:
         serializedVersion: 2
-        x: 0
+        x: 640
         y: 0
-        width: 1602
-        height: 432
+        width: 320
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,7 +204,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 982f7cd3c1fca7f498e494cb7770b579
+      spriteID: 25557dfb2e1eafb4fae84ca6c47a88bc
       vertices: []
       indices: 
       edges: []
