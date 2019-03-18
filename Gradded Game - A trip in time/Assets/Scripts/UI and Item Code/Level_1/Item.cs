@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bad_Item_Flask: MonoBehaviour {
+public class Item: MonoBehaviour {
 
     //Setting "AuidoSource" to 
  

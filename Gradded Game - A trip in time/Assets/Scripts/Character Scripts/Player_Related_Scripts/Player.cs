@@ -20,7 +20,7 @@ public class Player : MonoBehaviour
     public Collider2D playerCollider;
 
     public AudioSource Death;
-    public AudioSource Coins;
+    public AudioSource Item_pickup;
 
     public Lives livesObject;
 
@@ -81,13 +81,7 @@ public class Player : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-
-        if (collision.collider.GetComponent<Good_Item_Flask>())
-   
-        {
-            
-        }
-
+        
         
 
         // Check the thing we bump into is an enemy
