@@ -16,11 +16,15 @@ public class Dialog : MonoBehaviour {
 
     public GameObject continueButton;
 
-    void Start(){
+    void Start()
+        {
 
-        StartCoroutine(Type());
+            StartCoroutine(Type());
 
-    }
+        }
+
+      
+        
 
     void Update()
     {
