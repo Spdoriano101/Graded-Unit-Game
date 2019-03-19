@@ -16,15 +16,21 @@ public class Dialog : MonoBehaviour {
 
     public GameObject continueButton;
 
-    void Start()
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+
+
+
+        // Check the thing we bump into is an enemy
+        if (collision.collider.GetComponent<Player>())
         {
 
             StartCoroutine(Type());
 
         }
 
-      
-        
+
+    }
 
     void Update()
     {
