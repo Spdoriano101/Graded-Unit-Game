@@ -10,7 +10,7 @@ public static class GloablVariables
 
 }
 
-public class Elane_Button : MonoBehaviour {
+public class Jessica_Button : MonoBehaviour {
    
 
     void Start()

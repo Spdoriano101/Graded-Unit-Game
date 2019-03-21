@@ -25,12 +25,13 @@ public class Player : MonoBehaviour
     public Lives livesObject;
 
 
-    // Use this for initialization
+ 
     void Start()
     {
         if (Character_Button.characterChoice != name)
         {
-            //it says that the characterChoice isn't our character
+            //Detects the character that wasnt picked in the level and destroys it
+            //This happens for every level the player visits
             Destroy(gameObject);
         }
     }
@@ -41,7 +42,6 @@ public class Player : MonoBehaviour
 
         // Get axis input from Unity
         float leftRight = Input.GetAxis(horizontalAxis);
-
 
         // Create direction vector from axis input
         Vector2 direction = new Vector2(leftRight, 0);
@@ -74,7 +74,6 @@ public class Player : MonoBehaviour
         //Animation for the animator script
         playerAnimator.SetFloat("Walk", Mathf.Abs(leftRight));
 
-       
     }
 
 
@@ -82,54 +81,37 @@ public class Player : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         
-        
-
-        // Check the thing we bump into is an enemy
+        // Detects if the object/assets that was collided with holds the "Enemy" script
         if (collision.collider.GetComponent<Enemy>())
         {
             //Take away a life and save that change
             livesObject.LoseLife();
             livesObject.saveLives();
 
+            //Plays the death sound
             Death.Play();
             
-
-
-            //Check if its game over
-
+            //Checks if its game over
             bool gameOver = livesObject.IsGameOver();
 
             if (gameOver == true)
             {
-                //If it IS game over...
-                //Load the game over scene
-
+         
+                //If it IS game over, load the game over scene
                 SceneManager.LoadScene("Game_Over");
 
             }
 
             else
             {
-                //try and fix this you need to try and get the game to take away a life but not reset 
-                //but still check to see if the gme is over and the get the game to reset
-
-
-                //If it is NOT game over...
-                //reset the current level to restart from the begining
-
-                // Reset the current level to restart from the begining.
-
-                //First, ask untiy what the current level is 
-
+                //Detects what the current score of the player is
                 Score.scoreValue = PlayerPrefs.GetInt("score", 0);
 
-
+                //Detects what level the player is on and saves it
                 Scene currentLevel = SceneManager.GetActiveScene();
 
-                //Second, tell unity to load the current again
-                // by passing the build index of our level
-                
-
+              //Relods the saved level, from the start point of that level
+              //using the build index
                 SceneManager.LoadScene(currentLevel.buildIndex);
 
 

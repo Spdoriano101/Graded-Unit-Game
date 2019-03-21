@@ -4,16 +4,17 @@ using UnityEngine;
 
 public class Quit : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
+
+
 	void Update () {
+
+        //This is used for when the game is built, by pressing the ESC key the player can exit the game if it freezes or 
+        //needs to back out
 		if (Input.GetKey("escape"))
-            {
+        {
+
             Application.Quit();
+
         }
 	}
 }
