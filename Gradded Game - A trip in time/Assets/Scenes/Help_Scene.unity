@@ -145,8 +145,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000076293945, y: -0.0000052452}
-  m_SizeDelta: {x: 569.8, y: 244.6}
+  m_AnchoredPosition: {x: 0.000012279, y: 27}
+  m_SizeDelta: {x: 568.7, y: 273.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &816211597
 MonoBehaviour:
@@ -181,14 +181,14 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Ah! you are in need of some assistance!\n\nTo move your character, please
-    use the \"A\" and \"D\" buttons to move left and right\n\nTo jump, please use
-    the \"SAPCE\" key\n\nAvoid the enimies to try and not lose a life and collect
-    the items to increase your score, hey this is a platfromer after all! \n\n\nHere's
-    some back story for ya too:\n\nYou are a young tech nerd who has a passion for
-    computers and video games. You work for a leading tech company, Advance-Astro,
-    who specialise in prototype science tech and have a keen interest in the idea
-    of time travel for a sinister reason\u2026 to change the course of history and
-    take over the world!!!\n\n\n"
+    use the \"A\" and \"D\" buttons to move left and right\n\nTo jump, use the \"SAPCE\"
+    key, if oyu want to jump higher just HOLD the \"SPACE\" key.\n\nAvoid the enimies
+    to try and not lose a life and collect the items to increase your score, hey this
+    is a platfromer after all! \n\n\n\nHere's some back story for ya too:\n\nYou are
+    a young tech nerd who has a passion for computers and video games. You work for
+    a leading tech company, Advance-Astro, who specialise in prototype science tech
+    and have a keen interest in the idea of time travel for a sinister reason\u2026
+    to change the course of history and take over the world!!!\n\n\n"
 --- !u!222 &816211598
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -510,7 +510,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 0.3529412, g: 0.63529414, b: 1, a: 1}
     m_HighlightedColor: {r: 0.26415092, g: 0.26415092, b: 0.26415092, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -624,7 +624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:

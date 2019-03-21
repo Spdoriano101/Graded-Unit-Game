@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bad_Item : MonoBehaviour
-{
+public class Bad_Item_3 : MonoBehaviour {
 
     //Setting the audio source 
 
@@ -11,24 +10,14 @@ public class Bad_Item : MonoBehaviour
 
     public AudioSource Audio;
 
-    
-    void Start()
-    {
-
-        
-
-
-
-    }
-
 
     //Unity calls this function when Item touches any other object in the game
     // If the player touched the Item, it should vanish and the score should increase
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        //Check if the object that collided with the item was the player
+        //Check if the thing we touched was the player 
         Player playerScript = collision.collider.GetComponent<Player>();
-       
+
 
         //If the player collides with an object or asset(s) that 
         //Have a playerscript attached to it
@@ -38,9 +27,9 @@ public class Bad_Item : MonoBehaviour
             Audio.Play();
 
 
-            Score.scoreValue -= 45;
+            Score.scoreValue += 100;
             // Destroy the gameObject that this script is attracted to
-            
+            // (the coin) 
 
 
 
@@ -48,5 +37,3 @@ public class Bad_Item : MonoBehaviour
         }
     }
 }
-
-

@@ -10,16 +10,6 @@ public class Good_Item : MonoBehaviour {
 
     public AudioSource Audio;
 
-    // Use this for initialization
-    void Start()
-    {
-
-        
-
-
-
-    }
-
 
     //Unity calls this function when Item touches any other object in the game
     // If the player touched the Item, it should vanish and the score should increase
@@ -37,7 +27,7 @@ public class Good_Item : MonoBehaviour {
             Audio.Play();
 
 
-            Score.scoreValue += 100;
+            Score.scoreValue += 75;
             // Destroy the gameObject that this script is attracted to
             // (the coin) 
 
