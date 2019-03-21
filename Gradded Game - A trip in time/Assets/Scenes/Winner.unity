@@ -405,10 +405,19 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "You have successfully managed to fix the timemachine \nand return back
-    to the present day.\n\nThats deserves a GG in my book\n\nHead back to the main
-    menu and see if you can beat the highscore!\n(if you are the highscore holder
-    then well done!)\n\n\n"
+  m_Text: 'You have successfully managed to return back to the present day.
+
+
+    Thats deserves a GG in my book
+
+
+    Head back to the main menu and see if you can beat the highscore!
+
+    (if you are the highscore holder then well done!)
+
+
+
+'
 --- !u!222 &615051002
 CanvasRenderer:
   m_ObjectHideFlags: 0

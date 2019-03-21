@@ -952,7 +952,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpVelocity: 13.5
-  playerCollider: {fileID: 0}
+  playerCollider: {fileID: 144286619}
 --- !u!50 &144286618
 Rigidbody2D:
   serializedVersion: 4
