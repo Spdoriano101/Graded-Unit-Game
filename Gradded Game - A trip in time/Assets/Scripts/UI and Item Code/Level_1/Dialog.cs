@@ -15,20 +15,10 @@ public class Dialog : MonoBehaviour {
     public float typingSpeed;
 
     public GameObject continueButton;
-
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void Start()
     {
 
-
-
-        // Check the thing we bump into is an enemy
-        if (collision.collider.GetComponent<Player>())
-        {
-
-            StartCoroutine(Type());
-
-        }
-
+        StartCoroutine(Type());
 
     }
 

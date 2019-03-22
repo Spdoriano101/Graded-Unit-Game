@@ -13,7 +13,7 @@ public class CountDownTimer : MonoBehaviour
 
     //sets variables to a specific value
     float currentTime = 0f;
-    float startingTime = 260f;
+    float startingTime = 150f;
 
     [SerializeField] Text countdownText;
 
