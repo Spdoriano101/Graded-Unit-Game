@@ -5243,7 +5243,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 18
-  jumpSpeed: 10
+  jumpSpeed: 30
   physicsBody: {fileID: 920758956}
   horizontalAxis: Horizontal
   jumpButton: Jump
@@ -7973,7 +7973,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 18
-  jumpSpeed: 10
+  jumpSpeed: 30
   physicsBody: {fileID: 1547912056}
   horizontalAxis: Horizontal
   jumpButton: Jump
