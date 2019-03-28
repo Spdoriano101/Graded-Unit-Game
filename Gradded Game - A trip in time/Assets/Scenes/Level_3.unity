@@ -4615,7 +4615,7 @@ Tilemap:
       m_ObjectToInstantiate: {fileID: 0}
       m_TileFlags: 1
       m_ColliderType: 1
-  - first: {x: 417, y: 97, z: 0}
+  - first: {x: 419, y: 97, z: 0}
     second:
       m_TileIndex: 4
       m_TileSpriteIndex: 5
@@ -4867,7 +4867,7 @@ Tilemap:
       m_ObjectToInstantiate: {fileID: 0}
       m_TileFlags: 1
       m_ColliderType: 1
-  - first: {x: 409, y: 127, z: 0}
+  - first: {x: 405, y: 127, z: 0}
     second:
       m_TileIndex: 4
       m_TileSpriteIndex: 5
@@ -6976,7 +6976,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 715675749}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 405.37, y: -14.15, z: 0}
+  m_LocalPosition: {x: 401.32, y: -14.15, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1025954334}
@@ -7876,6 +7876,7 @@ GameObject:
   - component: {fileID: 770319319}
   - component: {fileID: 770319321}
   - component: {fileID: 770319320}
+  - component: {fileID: 770319322}
   m_Layer: 0
   m_Name: Wee Skelly Aztec_0 (1)
   m_TagString: Untagged
@@ -7960,6 +7961,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!70 &770319322
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 770319318}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 3, y: 5.4}
+  m_Direction: 0
 --- !u!1 &771981461
 GameObject:
   m_ObjectHideFlags: 0
@@ -10359,6 +10375,7 @@ GameObject:
   - component: {fileID: 1082801786}
   - component: {fileID: 1082801788}
   - component: {fileID: 1082801787}
+  - component: {fileID: 1082801789}
   m_Layer: 0
   m_Name: Wee Skelly Aztec_0 (2)
   m_TagString: Untagged
@@ -10443,6 +10460,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!70 &1082801789
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1082801785}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 3, y: 5.4}
+  m_Direction: 0
 --- !u!1 &1099556155
 GameObject:
   m_ObjectHideFlags: 0
@@ -15444,7 +15476,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2039402758}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 413.53, y: -44.73, z: 0}
+  m_LocalPosition: {x: 415.58, y: -44.73, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1025954334}
@@ -15740,6 +15772,7 @@ GameObject:
   - component: {fileID: 2057050134}
   - component: {fileID: 2057050136}
   - component: {fileID: 2057050135}
+  - component: {fileID: 2057050137}
   m_Layer: 0
   m_Name: Wee Skelly Aztec_0
   m_TagString: Untagged
@@ -15824,6 +15857,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!70 &2057050137
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2057050133}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 3, y: 5.4}
+  m_Direction: 0
 --- !u!1 &2065964309
 GameObject:
   m_ObjectHideFlags: 0
@@ -15834,6 +15882,7 @@ GameObject:
   - component: {fileID: 2065964310}
   - component: {fileID: 2065964312}
   - component: {fileID: 2065964311}
+  - component: {fileID: 2065964313}
   m_Layer: 0
   m_Name: Wee Skelly Aztec Cheif
   m_TagString: Untagged
@@ -15918,6 +15967,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!70 &2065964313
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2065964309}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 3, y: 6}
+  m_Direction: 0
 --- !u!1 &2106922240
 GameObject:
   m_ObjectHideFlags: 0
