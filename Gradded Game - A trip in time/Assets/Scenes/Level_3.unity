@@ -1146,7 +1146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5c9cda3859e99e47a549b67fea6e73f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fallMultiplier: 5
+  fallMultiplier: 8
   lowJumpMultiplier: 4
 --- !u!114 &144286617
 MonoBehaviour:
@@ -1159,7 +1159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c8f4e91f253a2e47b3170ee2ef1b47d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpVelocity: 13.5
+  jumpVelocity: 10
   playerCollider: {fileID: 144286619}
 --- !u!50 &144286618
 Rigidbody2D:
@@ -1460,7 +1460,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5c9cda3859e99e47a549b67fea6e73f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fallMultiplier: 5
+  fallMultiplier: 8
   lowJumpMultiplier: 4
 --- !u!114 &221645328
 MonoBehaviour:
@@ -1473,7 +1473,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c8f4e91f253a2e47b3170ee2ef1b47d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpVelocity: 13.5
+  jumpVelocity: 10
   playerCollider: {fileID: 221645330}
 --- !u!50 &221645329
 Rigidbody2D:
@@ -7877,6 +7877,7 @@ GameObject:
   - component: {fileID: 770319321}
   - component: {fileID: 770319320}
   - component: {fileID: 770319322}
+  - component: {fileID: 770319323}
   m_Layer: 0
   m_Name: Wee Skelly Aztec_0 (1)
   m_TagString: Untagged
@@ -7976,6 +7977,17 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 3, y: 5.4}
   m_Direction: 0
+--- !u!114 &770319323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 770319318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bfcd6ac703ce4b4d9477f49bcef9a75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &771981461
 GameObject:
   m_ObjectHideFlags: 0
@@ -10376,6 +10388,7 @@ GameObject:
   - component: {fileID: 1082801788}
   - component: {fileID: 1082801787}
   - component: {fileID: 1082801789}
+  - component: {fileID: 1082801790}
   m_Layer: 0
   m_Name: Wee Skelly Aztec_0 (2)
   m_TagString: Untagged
@@ -10475,6 +10488,17 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 3, y: 5.4}
   m_Direction: 0
+--- !u!114 &1082801790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1082801785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bfcd6ac703ce4b4d9477f49bcef9a75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1099556155
 GameObject:
   m_ObjectHideFlags: 0
@@ -15773,6 +15797,7 @@ GameObject:
   - component: {fileID: 2057050136}
   - component: {fileID: 2057050135}
   - component: {fileID: 2057050137}
+  - component: {fileID: 2057050138}
   m_Layer: 0
   m_Name: Wee Skelly Aztec_0
   m_TagString: Untagged
@@ -15872,6 +15897,17 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 3, y: 5.4}
   m_Direction: 0
+--- !u!114 &2057050138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2057050133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bfcd6ac703ce4b4d9477f49bcef9a75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2065964309
 GameObject:
   m_ObjectHideFlags: 0
@@ -15883,6 +15919,7 @@ GameObject:
   - component: {fileID: 2065964312}
   - component: {fileID: 2065964311}
   - component: {fileID: 2065964313}
+  - component: {fileID: 2065964314}
   m_Layer: 0
   m_Name: Wee Skelly Aztec Cheif
   m_TagString: Untagged
@@ -15982,6 +16019,17 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 3, y: 6}
   m_Direction: 0
+--- !u!114 &2065964314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2065964309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bfcd6ac703ce4b4d9477f49bcef9a75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2106922240
 GameObject:
   m_ObjectHideFlags: 0
