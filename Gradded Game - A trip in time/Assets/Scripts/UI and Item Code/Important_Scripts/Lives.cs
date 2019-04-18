@@ -10,14 +10,12 @@ public class Lives : MonoBehaviour
     public int numericalLives = 3;
 
 
-
-    // Use this for initialization
     void Start()
     {
         //sets the total lives to 3 at the start of the game 
         numericalLives = PlayerPrefs.GetInt("Lives2", 3);  
 
-        //ties the lives to teh main lives script
+        //ties the lives to the main lives script
         livesText.text = numericalLives.ToString();
     }
 
@@ -39,7 +37,7 @@ public class Lives : MonoBehaviour
 
     public void saveLives()
     {
-
+        //saves the lives set for the player
         PlayerPrefs.SetInt("Lives2", numericalLives);
     }
 
@@ -54,6 +52,7 @@ public class Lives : MonoBehaviour
 
        }
      
+       //if lives are more than 0 then the game will continue
         else
         {
 

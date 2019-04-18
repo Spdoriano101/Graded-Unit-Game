@@ -40,7 +40,7 @@ public class Dialog : MonoBehaviour {
 
         foreach (char letter in sentences[index].ToCharArray())
         {
-
+            //stest the time to wait before typing out a scentence
             textDisplay.text += letter;
             yield return new WaitForSeconds(typingSpeed);
 

@@ -8,7 +8,7 @@ public class Character_Button : MonoBehaviour {
     // Sets the character choice variable to a static string, allowing it to be read over multiple scripts
     public static string characterChoice = "";
 
-    // sets scene to load to a string that can also, again, be accessed from other scripts
+    // Sets scene to load to a string that can also, again, be accessed from other scripts
     public string sceneToLoad = "";
 
    

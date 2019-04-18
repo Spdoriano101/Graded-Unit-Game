@@ -4,32 +4,28 @@ using UnityEngine;
 
 public class Good_Item : MonoBehaviour {
 
-    //Setting the audio source 
 
     public Score scoreObject;
 
     public AudioSource Audio;
 
 
-    //Unity calls this function when Item touches any other object in the game
-    // If the player touched the Item, it should vanish and the score should increase
+
+    //collision detection
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        //Check if the thing we touched was the player 
+       
         Player playerScript = collision.collider.GetComponent<Player>();
        
-
-        //If the player collides with an object or asset(s) that 
-        //Have a playerscript attached to it
+        
         if (playerScript)
         {
-
+            //audio to play when the assets with the player scirpt is collided with
             Audio.Play();
 
 
             Score.scoreValue += 75;
-            // Destroy the gameObject that this script is attracted to
-            // (the coin) 
+            // Destroy the gameObject that this script is attacted to
 
 
 

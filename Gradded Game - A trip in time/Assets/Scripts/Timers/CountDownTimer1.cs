@@ -2,22 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
-// Extra using statement to allow us to use the scene management functions
 using UnityEngine.SceneManagement;
 
 public class CountDownTimer1 : MonoBehaviour
 {
-    //Designer Variables
+   
     public string sceneToLoad;
 
-    //sets variables to a specific value
     float currentTime = 0f;
     float startingTime = 180f;
 
     [SerializeField] Text countdownText;
 
-    // Use this for initialization
+  
     void Start()
     {
         currentTime = startingTime;

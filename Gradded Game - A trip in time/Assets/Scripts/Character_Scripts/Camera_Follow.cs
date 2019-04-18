@@ -11,14 +11,14 @@ public class Camera_Follow : MonoBehaviour {
 
     void Start()
     {
-        //Find the player and set player to the found player GameObject
+        //Finds the player and sets player to the found player GameObject
         Player = GameObject.Find(Character_Button.characterChoice);
 
-        //store player.transform in follow target 
+        //Stores player.transform in follow target 
         followTarget = Player.transform;
 
-        //GetComponent<UnityEngine.Camera>().orthographicSize = ((Screen.height / 2) / cameraDistance);
     }
+
     // Update is called once per frame
     void FixedUpdate()
 
