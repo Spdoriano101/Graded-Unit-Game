@@ -531,7 +531,7 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0.16676489, y: -0.019417064, z: 69.54927, w: 10.374706}
+  m_margin: {x: 0.16676489, y: -0.019417064, z: -0.024340687, w: -0.1455539}
   m_textInfo:
     textComponent: {fileID: 0}
     characterCount: 20
@@ -582,8 +582,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 22.1, y: -7.6}
-  m_SizeDelta: {x: 95.08, y: 15.51}
+  m_AnchoredPosition: {x: -12.42, y: 0.75}
+  m_SizeDelta: {x: 21.43, y: 3.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &53883128
 GameObject:
@@ -5340,7 +5340,7 @@ Tilemap:
       m_ObjectToInstantiate: {fileID: 0}
       m_TileFlags: 1
       m_ColliderType: 1
-  - first: {x: 249, y: 154, z: 0}
+  - first: {x: 251, y: 154, z: 0}
     second:
       m_TileIndex: 6
       m_TileSpriteIndex: 4
@@ -5349,7 +5349,7 @@ Tilemap:
       m_ObjectToInstantiate: {fileID: 0}
       m_TileFlags: 1
       m_ColliderType: 1
-  - first: {x: 254, y: 154, z: 0}
+  - first: {x: 256, y: 154, z: 0}
     second:
       m_TileIndex: 8
       m_TileSpriteIndex: 8
@@ -5358,7 +5358,7 @@ Tilemap:
       m_ObjectToInstantiate: {fileID: 0}
       m_TileFlags: 1
       m_ColliderType: 1
-  - first: {x: 258, y: 154, z: 0}
+  - first: {x: 260, y: 154, z: 0}
     second:
       m_TileIndex: 3
       m_TileSpriteIndex: 3
@@ -7701,7 +7701,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 737413022}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -306.6431, y: -7.2801666, z: 0.921875}
+  m_LocalPosition: {x: -271.4, y: -1.3, z: 0.921875}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1701648846}
@@ -8089,7 +8089,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 770319318}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 21.83, y: -11, z: 0.125}
+  m_LocalPosition: {x: 24.47, y: -11, z: 0.125}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2055020688}
@@ -8217,8 +8217,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.5, y: 5.1}
-  m_SizeDelta: {x: 90.02, y: 9.87}
+  m_AnchoredPosition: {x: -6.2, y: -21.2}
+  m_SizeDelta: {x: 89.23, y: 9.87}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &796705523
 CanvasRenderer:
@@ -8311,7 +8311,7 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0.35265705, y: 0, z: 16.61968, w: 0.13534336}
+  m_margin: {x: 0.35265705, y: 0, z: 43.404037, w: 0.13534336}
   m_textInfo:
     textComponent: {fileID: 0}
     characterCount: 0
@@ -9413,7 +9413,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 974950226}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -112.32, y: -7.49, z: 0.921875}
+  m_LocalPosition: {x: -132.49, y: -7.49, z: 0.921875}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1701648846}
@@ -14905,7 +14905,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2013675360}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -78.7, y: -29.6, z: 0.921875}
+  m_LocalPosition: {x: -65.2, y: -14.2, z: 0.921875}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1701648846}

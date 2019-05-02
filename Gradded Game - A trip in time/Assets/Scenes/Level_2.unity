@@ -739,7 +739,7 @@ GameObject:
   - component: {fileID: 236022715}
   - component: {fileID: 236022714}
   - component: {fileID: 236022716}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Platform_Float_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7677,7 +7677,7 @@ GameObject:
   - component: {fileID: 1686801725}
   - component: {fileID: 1686801724}
   - component: {fileID: 1686801723}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Platform_Float_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
