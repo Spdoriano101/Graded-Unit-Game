@@ -3659,7 +3659,7 @@ Tilemap:
       m_ObjectToInstantiate: {fileID: 0}
       m_TileFlags: 1
       m_ColliderType: 1
-  - first: {x: 383, y: 167, z: 0}
+  - first: {x: 385, y: 167, z: 0}
     second:
       m_TileIndex: 4
       m_TileSpriteIndex: 5
@@ -3668,7 +3668,7 @@ Tilemap:
       m_ObjectToInstantiate: {fileID: 0}
       m_TileFlags: 1
       m_ColliderType: 1
-  - first: {x: 385, y: 167, z: 0}
+  - first: {x: 387, y: 167, z: 0}
     second:
       m_TileIndex: 1
       m_TileSpriteIndex: 2
@@ -3677,7 +3677,7 @@ Tilemap:
       m_ObjectToInstantiate: {fileID: 0}
       m_TileFlags: 1
       m_ColliderType: 1
-  - first: {x: 387, y: 167, z: 0}
+  - first: {x: 390, y: 167, z: 0}
     second:
       m_TileIndex: 3
       m_TileSpriteIndex: 4
