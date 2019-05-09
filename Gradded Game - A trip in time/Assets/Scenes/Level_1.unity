@@ -5651,7 +5651,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 3
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -5708,7 +5708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5c9cda3859e99e47a549b67fea6e73f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fallMultiplier: 5
+  fallMultiplier: 10
   lowJumpMultiplier: 2
 --- !u!114 &920758960
 MonoBehaviour:
@@ -5721,7 +5721,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c8f4e91f253a2e47b3170ee2ef1b47d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpVelocity: 10
+  jumpVelocity: 12
   playerCollider: {fileID: 920758957}
 --- !u!1 &956333304
 GameObject:
@@ -8583,7 +8583,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5c9cda3859e99e47a549b67fea6e73f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fallMultiplier: 5
+  fallMultiplier: 10
   lowJumpMultiplier: 2
 --- !u!114 &1547912059
 MonoBehaviour:
@@ -8596,7 +8596,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c8f4e91f253a2e47b3170ee2ef1b47d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpVelocity: 10
+  jumpVelocity: 8.5
   playerCollider: {fileID: 1547912055}
 --- !u!1 &1579552371
 GameObject:

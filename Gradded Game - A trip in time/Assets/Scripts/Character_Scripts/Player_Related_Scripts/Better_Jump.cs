@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Better_Jump : MonoBehaviour {
 
-    public float fallMultiplier = 3.5f;
-    public float lowJumpMultiplier = 3f;
+    public float fallMultiplier = 1.5f;
+    public float lowJumpMultiplier = 1.5f;
 
  
 
