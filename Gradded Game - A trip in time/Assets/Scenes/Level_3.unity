@@ -861,6 +861,7 @@ GameObject:
   - component: {fileID: 75343464}
   - component: {fileID: 75343463}
   - component: {fileID: 75343462}
+  - component: {fileID: 75343466}
   m_Layer: 0
   m_Name: Good_Coin (4)
   m_TagString: Untagged
@@ -973,6 +974,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &75343466
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 75343460}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 6200000, guid: 782814b42edcec94897e1627ccc4463a, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &115244372
 GameObject:
   m_ObjectHideFlags: 0
@@ -2851,6 +2872,7 @@ GameObject:
   - component: {fileID: 554625113}
   - component: {fileID: 554625112}
   - component: {fileID: 554625115}
+  - component: {fileID: 554625116}
   m_Layer: 0
   m_Name: Good_Coin (3)
   m_TagString: Untagged
@@ -2963,6 +2985,26 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!50 &554625116
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 554625110}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 6200000, guid: 782814b42edcec94897e1627ccc4463a, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &571041893
 GameObject:
   m_ObjectHideFlags: 0
@@ -3616,6 +3658,7 @@ GameObject:
   - component: {fileID: 604133249}
   - component: {fileID: 604133248}
   - component: {fileID: 604133250}
+  - component: {fileID: 604133251}
   m_Layer: 0
   m_Name: Good_Coin
   m_TagString: Untagged
@@ -3728,6 +3771,26 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!50 &604133251
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 604133245}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 6200000, guid: 782814b42edcec94897e1627ccc4463a, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &622963494
 GameObject:
   m_ObjectHideFlags: 0
@@ -7660,6 +7723,7 @@ GameObject:
   - component: {fileID: 737413026}
   - component: {fileID: 737413025}
   - component: {fileID: 737413024}
+  - component: {fileID: 737413028}
   m_Layer: 0
   m_Name: Bad_Coin
   m_TagString: Untagged
@@ -7772,6 +7836,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &737413028
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 737413022}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 6200000, guid: 782814b42edcec94897e1627ccc4463a, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &740738110
 GameObject:
   m_ObjectHideFlags: 0
@@ -9372,6 +9456,7 @@ GameObject:
   - component: {fileID: 974950230}
   - component: {fileID: 974950229}
   - component: {fileID: 974950228}
+  - component: {fileID: 974950232}
   m_Layer: 0
   m_Name: Bad_Coin_2
   m_TagString: Untagged
@@ -9484,6 +9569,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &974950232
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 974950226}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 6200000, guid: 782814b42edcec94897e1627ccc4463a, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1010292257
 GameObject:
   m_ObjectHideFlags: 0
@@ -10540,6 +10645,7 @@ GameObject:
   - component: {fileID: 1099556158}
   - component: {fileID: 1099556157}
   - component: {fileID: 1099556160}
+  - component: {fileID: 1099556161}
   m_Layer: 0
   m_Name: Good_Coin (2)
   m_TagString: Untagged
@@ -10652,6 +10758,26 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!50 &1099556161
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1099556155}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 6200000, guid: 782814b42edcec94897e1627ccc4463a, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1169447166
 GameObject:
   m_ObjectHideFlags: 0
@@ -13231,6 +13357,7 @@ GameObject:
   - component: {fileID: 1755296213}
   - component: {fileID: 1755296212}
   - component: {fileID: 1755296215}
+  - component: {fileID: 1755296216}
   m_Layer: 0
   m_Name: Good_Coin (1)
   m_TagString: Untagged
@@ -13343,6 +13470,26 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!50 &1755296216
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1755296210}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 6200000, guid: 782814b42edcec94897e1627ccc4463a, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1845845577
 GameObject:
   m_ObjectHideFlags: 0
@@ -14864,6 +15011,7 @@ GameObject:
   - component: {fileID: 2013675364}
   - component: {fileID: 2013675363}
   - component: {fileID: 2013675362}
+  - component: {fileID: 2013675366}
   m_Layer: 0
   m_Name: Bad_Coin_3
   m_TagString: Untagged
@@ -14976,6 +15124,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &2013675366
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2013675360}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 6200000, guid: 782814b42edcec94897e1627ccc4463a, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &2055020686
 GameObject:
   m_ObjectHideFlags: 0

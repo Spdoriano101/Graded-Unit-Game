@@ -1898,6 +1898,7 @@ GameObject:
   - component: {fileID: 609353119}
   - component: {fileID: 609353118}
   - component: {fileID: 609353117}
+  - component: {fileID: 609353121}
   m_Layer: 0
   m_Name: Bad_Flask (2)
   m_TagString: Untagged
@@ -2020,6 +2021,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &609353121
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 609353115}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 6200000, guid: 782814b42edcec94897e1627ccc4463a, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &677777512
 GameObject:
   m_ObjectHideFlags: 0
@@ -6283,6 +6304,7 @@ GameObject:
   - component: {fileID: 1085095758}
   - component: {fileID: 1085095757}
   - component: {fileID: 1085095756}
+  - component: {fileID: 1085095760}
   m_Layer: 0
   m_Name: Good_Flask (3)
   m_TagString: Untagged
@@ -6405,6 +6427,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &1085095760
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1085095754}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 6200000, guid: 782814b42edcec94897e1627ccc4463a, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1101481370
 GameObject:
   m_ObjectHideFlags: 0
@@ -9185,6 +9227,7 @@ GameObject:
   - component: {fileID: 1694876529}
   - component: {fileID: 1694876528}
   - component: {fileID: 1694876531}
+  - component: {fileID: 1694876532}
   m_Layer: 0
   m_Name: Good_Flask (1)
   m_TagString: Untagged
@@ -9307,6 +9350,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1424169934}
   Audio: {fileID: 1701648845}
+--- !u!50 &1694876532
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1694876526}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 6200000, guid: 782814b42edcec94897e1627ccc4463a, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1701648844
 GameObject:
   m_ObjectHideFlags: 0
@@ -9450,6 +9513,7 @@ GameObject:
   - component: {fileID: 1756038526}
   - component: {fileID: 1756038525}
   - component: {fileID: 1756038528}
+  - component: {fileID: 1756038529}
   m_Layer: 0
   m_Name: Good_Flask
   m_TagString: Untagged
@@ -9572,6 +9636,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreObject: {fileID: 1424169934}
   Audio: {fileID: 1701648845}
+--- !u!50 &1756038529
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1756038523}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 6200000, guid: 782814b42edcec94897e1627ccc4463a, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1806213990
 GameObject:
   m_ObjectHideFlags: 0
@@ -9850,6 +9934,7 @@ GameObject:
   - component: {fileID: 1864376969}
   - component: {fileID: 1864376968}
   - component: {fileID: 1864376967}
+  - component: {fileID: 1864376971}
   m_Layer: 0
   m_Name: Bad_Flask (1)
   m_TagString: Untagged
@@ -9972,6 +10057,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &1864376971
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1864376965}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 6200000, guid: 782814b42edcec94897e1627ccc4463a, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1871131035
 GameObject:
   m_ObjectHideFlags: 0
@@ -10199,6 +10304,7 @@ GameObject:
   - component: {fileID: 1944750827}
   - component: {fileID: 1944750826}
   - component: {fileID: 1944750825}
+  - component: {fileID: 1944750829}
   m_Layer: 0
   m_Name: Bad_Flask
   m_TagString: Untagged
@@ -10321,6 +10427,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &1944750829
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1944750823}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 6200000, guid: 782814b42edcec94897e1627ccc4463a, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &2009683622
 GameObject:
   m_ObjectHideFlags: 0
@@ -10538,6 +10664,7 @@ GameObject:
   - component: {fileID: 2036369715}
   - component: {fileID: 2036369714}
   - component: {fileID: 2036369713}
+  - component: {fileID: 2036369717}
   m_Layer: 0
   m_Name: Good_Flask (2)
   m_TagString: Untagged
@@ -10660,6 +10787,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &2036369717
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2036369711}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 6200000, guid: 782814b42edcec94897e1627ccc4463a, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &2091465785
 GameObject:
   m_ObjectHideFlags: 0
