@@ -1892,8 +1892,8 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 2
+  m_SortingLayerID: -892148763
+  m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!224 &590793485
 RectTransform:
@@ -7135,7 +7135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44bb25cbd47a9e44199fc6a5afe1f819, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 18
+  speed: 17
   jumpSpeed: 10
   physicsBody: {fileID: 1497478910}
   horizontalAxis: Horizontal
@@ -9472,7 +9472,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44bb25cbd47a9e44199fc6a5afe1f819, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 18
+  speed: 17
   jumpSpeed: 10
   physicsBody: {fileID: 1889260120}
   horizontalAxis: Horizontal
