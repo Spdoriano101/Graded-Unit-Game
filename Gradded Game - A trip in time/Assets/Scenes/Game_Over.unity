@@ -256,8 +256,9 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Disaster!\n\nThats a GAME OVER right there \n\nYou are lost in space and
-    time! looks like your not getting \nhome for dinner anytime soon!\n\nJump back
-    to the main menu and have another go, try and not make the \nsame mistake twice!\n\n"
+    time! \n\nlooks like your not getting \nhome for dinner anytime soon!\n\nJump
+    back to the main menu and have another go, try and not make the \nsame mistake
+    twice!\n\n"
 --- !u!222 &501847491
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -394,7 +395,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.2784314, g: 0.28627452, b: 0.29411766, a: 0}
+  m_BackGroundColor: {r: 0.3764706, g: 0.3764706, b: 0.3764706, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}

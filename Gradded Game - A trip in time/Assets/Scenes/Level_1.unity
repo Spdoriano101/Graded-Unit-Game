@@ -387,7 +387,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: PUSH ME
+  m_text: CLICK ME
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -455,7 +455,7 @@ MonoBehaviour:
   m_margin: {x: 0.16676489, y: 0.07900956, z: 0.16363782, w: 0.13317837}
   m_textInfo:
     textComponent: {fileID: 0}
-    characterCount: 7
+    characterCount: 8
     spriteCount: 0
     spaceCount: 1
     wordCount: 2
@@ -5634,7 +5634,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 920758952}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 434.6, y: 164.9, z: 0}
+  m_LocalPosition: {x: -40.92, y: 164.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5721,7 +5721,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c8f4e91f253a2e47b3170ee2ef1b47d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpVelocity: 12
+  jumpVelocity: 8.5
   playerCollider: {fileID: 920758957}
 --- !u!1 &956333304
 GameObject:
