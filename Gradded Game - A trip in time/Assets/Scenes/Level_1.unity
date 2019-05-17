@@ -909,7 +909,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 774001309
-  m_SortingLayer: -4
+  m_SortingLayer: -3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 200fdb98f4a2cf24c8f4eaec62cd227b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1239,7 +1239,7 @@ GameObject:
   - component: {fileID: 477292695}
   - component: {fileID: 477292697}
   - component: {fileID: 477292696}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Timer Lab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1564,7 +1564,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 421, y: 175.9, z: -10}
+  m_LocalPosition: {x: -4.8, y: 175.9, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 254098387}
@@ -1899,7 +1899,7 @@ GameObject:
   - component: {fileID: 609353118}
   - component: {fileID: 609353117}
   - component: {fileID: 609353121}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bad_Flask (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2007,8 +2007,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 56915549
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 000ba529399075644be71909bc0b98ac, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2259,7 +2259,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 511076017
-  m_SortingLayer: -3
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 3.1599998, y: 2.2, z: 0}
@@ -3221,73 +3221,145 @@ Tilemap:
       m_ObjectToInstantiate: {fileID: 0}
       m_TileFlags: 1
       m_ColliderType: 1
-  - first: {x: 383, y: 157, z: 0}
+  - first: {x: 381, y: 157, z: 0}
     second:
-      m_TileIndex: 2
-      m_TileSpriteIndex: 3
+      m_TileIndex: 1
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_ObjectToInstantiate: {fileID: 0}
       m_TileFlags: 1
       m_ColliderType: 1
-  - first: {x: 391, y: 157, z: 0}
+  - first: {x: 385, y: 157, z: 0}
     second:
-      m_TileIndex: 2
-      m_TileSpriteIndex: 3
+      m_TileIndex: 1
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_ObjectToInstantiate: {fileID: 0}
       m_TileFlags: 1
       m_ColliderType: 1
-  - first: {x: 399, y: 157, z: 0}
+  - first: {x: 389, y: 157, z: 0}
     second:
-      m_TileIndex: 2
-      m_TileSpriteIndex: 3
+      m_TileIndex: 1
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_ObjectToInstantiate: {fileID: 0}
       m_TileFlags: 1
       m_ColliderType: 1
-  - first: {x: 407, y: 157, z: 0}
+  - first: {x: 393, y: 157, z: 0}
     second:
-      m_TileIndex: 2
-      m_TileSpriteIndex: 3
+      m_TileIndex: 1
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_ObjectToInstantiate: {fileID: 0}
       m_TileFlags: 1
       m_ColliderType: 1
-  - first: {x: 415, y: 157, z: 0}
+  - first: {x: 397, y: 157, z: 0}
     second:
-      m_TileIndex: 2
-      m_TileSpriteIndex: 3
+      m_TileIndex: 1
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_ObjectToInstantiate: {fileID: 0}
       m_TileFlags: 1
       m_ColliderType: 1
-  - first: {x: 423, y: 157, z: 0}
+  - first: {x: 401, y: 157, z: 0}
     second:
-      m_TileIndex: 2
-      m_TileSpriteIndex: 3
+      m_TileIndex: 1
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_ObjectToInstantiate: {fileID: 0}
       m_TileFlags: 1
       m_ColliderType: 1
-  - first: {x: 431, y: 157, z: 0}
+  - first: {x: 405, y: 157, z: 0}
     second:
-      m_TileIndex: 2
-      m_TileSpriteIndex: 3
+      m_TileIndex: 1
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_ObjectToInstantiate: {fileID: 0}
       m_TileFlags: 1
       m_ColliderType: 1
-  - first: {x: 439, y: 157, z: 0}
+  - first: {x: 409, y: 157, z: 0}
     second:
-      m_TileIndex: 2
-      m_TileSpriteIndex: 3
+      m_TileIndex: 1
+      m_TileSpriteIndex: 2
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 413, y: 157, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 2
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 417, y: 157, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 2
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 421, y: 157, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 2
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 425, y: 157, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 2
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 429, y: 157, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 2
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 433, y: 157, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 2
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 437, y: 157, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 2
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 441, y: 157, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_ObjectToInstantiate: {fileID: 0}
@@ -3851,16 +3923,7 @@ Tilemap:
       m_ObjectToInstantiate: {fileID: 0}
       m_TileFlags: 1
       m_ColliderType: 1
-  - first: {x: 360, y: 170, z: 0}
-    second:
-      m_TileIndex: 2
-      m_TileSpriteIndex: 3
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_ObjectToInstantiate: {fileID: 0}
-      m_TileFlags: 1
-      m_ColliderType: 1
-  - first: {x: 364, y: 170, z: 0}
+  - first: {x: 357, y: 170, z: 0}
     second:
       m_TileIndex: 3
       m_TileSpriteIndex: 4
@@ -4602,9 +4665,9 @@ Tilemap:
   m_TileAssetArray:
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 18
+  - m_RefCount: 34
     m_Data: {fileID: 11400000, guid: f4d8fce20f94c044f800746873012e8f, type: 2}
-  - m_RefCount: 68
+  - m_RefCount: 59
     m_Data: {fileID: 11400000, guid: 1c411d0fd604c534689725c704b2c787, type: 2}
   - m_RefCount: 32
     m_Data: {fileID: 11400000, guid: bd5ba2707de65ab4b88d47e35c46678f, type: 2}
@@ -4625,9 +4688,9 @@ Tilemap:
     m_Data: {fileID: 21300000, guid: d63d67e237f5b5642a4e900ec6e2cd72, type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 18
+  - m_RefCount: 34
     m_Data: {fileID: 21300000, guid: 902f5e72a5fd9be4d9b187b35e6e28e5, type: 3}
-  - m_RefCount: 68
+  - m_RefCount: 59
     m_Data: {fileID: 21300000, guid: bd7bd25bbafd97a48a6d3601cf22958c, type: 3}
   - m_RefCount: 32
     m_Data: {fileID: 21300000, guid: 1c44133865af9a74f9ef9a2a6ed31460, type: 3}
@@ -4642,7 +4705,7 @@ Tilemap:
   - m_RefCount: 0
     m_Data: {fileID: 0}
   m_TileMatrixArray:
-  - m_RefCount: 258
+  - m_RefCount: 265
     m_Data:
       e00: 1
       e01: 0
@@ -4661,7 +4724,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 258
+  - m_RefCount: 265
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   - m_RefCount: 0
     m_Data: {r: 2.2e-44, g: 2.2e-44, b: 2.2e-44, a: 2.2e-44}
@@ -4728,7 +4791,7 @@ PlatformEffector2D:
   m_UseOneWay: 1
   m_UseOneWayGrouping: 0
   m_SurfaceArc: 360
-  m_UseSideFriction: 0
+  m_UseSideFriction: 1
   m_UseSideBounce: 0
   m_SideArc: 1
 --- !u!1 &683364075
@@ -5121,7 +5184,7 @@ GameObject:
   m_Component:
   - component: {fileID: 795699171}
   - component: {fileID: 795699172}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Score Lab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5552,10 +5615,10 @@ GameObject:
   - component: {fileID: 920758958}
   - component: {fileID: 920758954}
   - component: {fileID: 920758953}
-  - component: {fileID: 920758957}
   - component: {fileID: 920758956}
   - component: {fileID: 920758960}
   - component: {fileID: 920758959}
+  - component: {fileID: 920758957}
   m_Layer: 0
   m_Name: Jessica
   m_TagString: Player
@@ -5634,8 +5697,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 920758952}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -40.92, y: 164.9, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -40.753, y: 164.554, z: 0}
+  m_LocalScale: {x: 0.950561, y: 0.94766, z: 0.967}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
@@ -5672,8 +5735,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.25268173, y: 0.44895172}
-  m_Size: {x: 3.396614, y: 6.5634003}
+  m_Offset: {x: 0, y: 0.5097809}
+  m_Size: {x: 2.8800004, y: 6.420438}
   m_Direction: 0
 --- !u!114 &920758958
 MonoBehaviour:
@@ -5693,7 +5756,7 @@ MonoBehaviour:
   jumpButton: Jump
   playerAnimator: {fileID: 920758953}
   playerSprite: {fileID: 920758954}
-  playerCollider: {fileID: 920758957}
+  playerCollider: {fileID: 0}
   Death: {fileID: 1025954332}
   Item_pickup: {fileID: 1701648845}
   livesObject: {fileID: 1318996456}
@@ -5721,7 +5784,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c8f4e91f253a2e47b3170ee2ef1b47d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpVelocity: 8.5
+  jumpVelocity: 10.2
   playerCollider: {fileID: 920758957}
 --- !u!1 &956333304
 GameObject:
@@ -5805,8 +5868,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -184328459
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 62cdec213ee41c94dac8fe5a23125f71, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5864,7 +5927,7 @@ GameObject:
   m_Component:
   - component: {fileID: 985407136}
   - component: {fileID: 985407135}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Lab HP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6242,7 +6305,7 @@ GameObject:
   - component: {fileID: 1085095757}
   - component: {fileID: 1085095756}
   - component: {fileID: 1085095760}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Good_Flask (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6350,8 +6413,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 56915549
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b6d947e7ad2b82f46b421540621d55aa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -8098,7 +8161,7 @@ GameObject:
   - component: {fileID: 1318996458}
   - component: {fileID: 1318996457}
   - component: {fileID: 1318996456}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Lives
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8187,7 +8250,7 @@ GameObject:
   - component: {fileID: 1424169936}
   - component: {fileID: 1424169935}
   - component: {fileID: 1424169934}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Score
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8428,9 +8491,9 @@ GameObject:
   - component: {fileID: 1547912053}
   - component: {fileID: 1547912052}
   - component: {fileID: 1547912056}
-  - component: {fileID: 1547912055}
   - component: {fileID: 1547912059}
   - component: {fileID: 1547912058}
+  - component: {fileID: 1547912055}
   m_Layer: 0
   m_Name: Marlowe
   m_TagString: Player
@@ -8509,8 +8572,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1547912051}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -44.139984, y: 164.66, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -44.105, y: 164.542, z: 0}
+  m_LocalScale: {x: 0.968, y: 0.968, z: 0.968}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -8527,8 +8590,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.009267807, y: 0.60840607}
-  m_Size: {x: 2.9552116, y: 6.475662}
+  m_Offset: {x: 0, y: 0.5253341}
+  m_Size: {x: 2.1600003, y: 6.2693315}
   m_Direction: 0
 --- !u!50 &1547912056
 Rigidbody2D:
@@ -8568,7 +8631,7 @@ MonoBehaviour:
   jumpButton: Jump
   playerAnimator: {fileID: 1547912052}
   playerSprite: {fileID: 1547912053}
-  playerCollider: {fileID: 1547912055}
+  playerCollider: {fileID: 0}
   Death: {fileID: 1025954332}
   Item_pickup: {fileID: 1701648845}
   livesObject: {fileID: 1318996456}
@@ -8596,7 +8659,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c8f4e91f253a2e47b3170ee2ef1b47d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpVelocity: 8.5
+  jumpVelocity: 10.2
   playerCollider: {fileID: 1547912055}
 --- !u!1 &1579552371
 GameObject:
@@ -9165,7 +9228,7 @@ GameObject:
   - component: {fileID: 1694876528}
   - component: {fileID: 1694876531}
   - component: {fileID: 1694876532}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Good_Flask (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9260,8 +9323,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 56915549
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b6d947e7ad2b82f46b421540621d55aa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -9316,7 +9379,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1701648846}
   - component: {fileID: 1701648845}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Item_Pickup_SFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9451,7 +9514,7 @@ GameObject:
   - component: {fileID: 1756038525}
   - component: {fileID: 1756038528}
   - component: {fileID: 1756038529}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Good_Flask
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9546,8 +9609,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 56915549
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b6d947e7ad2b82f46b421540621d55aa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -9845,8 +9908,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -184328459
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 62cdec213ee41c94dac8fe5a23125f71, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -9872,7 +9935,7 @@ GameObject:
   - component: {fileID: 1864376968}
   - component: {fileID: 1864376967}
   - component: {fileID: 1864376971}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bad_Flask (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9980,8 +10043,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 56915549
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 000ba529399075644be71909bc0b98ac, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -10242,7 +10305,7 @@ GameObject:
   - component: {fileID: 1944750826}
   - component: {fileID: 1944750825}
   - component: {fileID: 1944750829}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bad_Flask
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10350,8 +10413,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 56915549
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 000ba529399075644be71909bc0b98ac, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -10602,7 +10665,7 @@ GameObject:
   - component: {fileID: 2036369714}
   - component: {fileID: 2036369713}
   - component: {fileID: 2036369717}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Good_Flask (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10710,8 +10773,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 56915549
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b6d947e7ad2b82f46b421540621d55aa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -10826,8 +10889,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -184328459
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 62cdec213ee41c94dac8fe5a23125f71, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

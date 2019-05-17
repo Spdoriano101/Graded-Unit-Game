@@ -27,10 +27,10 @@ public class Item2: MonoBehaviour {
        
         Player playerScript = collision.collider.GetComponent<Player>();
         
-        //audio to play when the assets with the player scirpt is collided with
+       
         if (playerScript)
         {
-
+            //audio to play when the assets with the player scirpt is collided with
             Audio.Play();
 
 

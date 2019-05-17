@@ -26,7 +26,7 @@ public class Jump : MonoBehaviour {
 
 
 
-
+        //Detects wethe if th eplayer is touching the ground 
         if (Input.GetButtonDown("Jump") && touchingGround == true)
         {
 
