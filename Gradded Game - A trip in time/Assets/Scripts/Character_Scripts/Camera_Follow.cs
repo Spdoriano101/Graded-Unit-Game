@@ -12,7 +12,7 @@ public class Camera_Follow : MonoBehaviour {
     void Start()
     {
         //Finds the player and sets player to the found player GameObject
-        Player = GameObject.Find(Character_Button.characterChoice);
+        Player = GameObject.Find(Character_Choice.characterChoice);
 
         //Stores player.transform in follow target 
         followTarget = Player.transform;

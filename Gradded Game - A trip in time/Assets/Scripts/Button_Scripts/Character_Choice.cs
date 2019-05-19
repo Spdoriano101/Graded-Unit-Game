@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Character_Button : MonoBehaviour {
+public class Character_Choice : MonoBehaviour {
 
     // Sets the character choice variable to a static string, allowing it to be read over multiple scripts
     public static string characterChoice = "";

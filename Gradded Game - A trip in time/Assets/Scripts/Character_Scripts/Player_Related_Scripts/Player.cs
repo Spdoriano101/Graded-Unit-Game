@@ -28,7 +28,7 @@ public class Player : MonoBehaviour
  
     void Start()
     {
-        if (Character_Button.characterChoice != name)
+        if (Character_Choice.characterChoice != name)
         {
             //Detects the character that wasnt picked in the level and destroys it
             //This happens for every level the player visits

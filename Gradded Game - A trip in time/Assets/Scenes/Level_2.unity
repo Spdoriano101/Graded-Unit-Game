@@ -2295,7 +2295,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 511076017
-  m_SortingLayer: -3
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 583662cfea9aa8e4090f0b0eaedaf1df, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -7229,7 +7229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c8f4e91f253a2e47b3170ee2ef1b47d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpVelocity: 20
+  jumpVelocity: 15
   playerCollider: {fileID: 1497478911}
 --- !u!50 &1497478910
 Rigidbody2D:
@@ -7864,7 +7864,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 511076017
-  m_SortingLayer: -3
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 583662cfea9aa8e4090f0b0eaedaf1df, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -9441,7 +9441,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c8f4e91f253a2e47b3170ee2ef1b47d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpVelocity: 20
+  jumpVelocity: 15
   playerCollider: {fileID: 1889260119}
 --- !u!95 &1889260117
 Animator:
