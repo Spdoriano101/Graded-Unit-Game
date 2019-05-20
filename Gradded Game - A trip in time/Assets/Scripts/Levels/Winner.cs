@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Winner_Next : MonoBehaviour
+public class Winner : MonoBehaviour
 {
     
     //detects collsioion 
