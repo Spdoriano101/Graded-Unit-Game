@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 
 
-public class Home_Button : MonoBehaviour
+public class Home : MonoBehaviour
 {
     
     public void StartGame()
