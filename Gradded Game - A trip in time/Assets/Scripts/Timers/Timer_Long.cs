@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class CountDownTimer1 : MonoBehaviour
+public class Timer_Long : MonoBehaviour
 {
    
     public string sceneToLoad;
