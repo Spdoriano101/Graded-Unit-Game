@@ -153,7 +153,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 82.18164, y: 0.9902401}
+  m_Offset: {x: 62.209534, y: 0.9902401}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -164,7 +164,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 698.48584, y: 2.9805794}
+  m_Size: {x: 738.43005, y: 2.9805794}
   m_EdgeRadius: 0
 --- !u!4 &64740157
 Transform:
@@ -5750,10 +5750,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 22
-  jumpSpeed: 10
   physicsBody: {fileID: 920758956}
   horizontalAxis: Horizontal
-  jumpButton: Jump
   playerAnimator: {fileID: 920758953}
   playerSprite: {fileID: 920758954}
   playerCollider: {fileID: 0}
@@ -8625,10 +8623,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 22
-  jumpSpeed: 10
   physicsBody: {fileID: 1547912056}
   horizontalAxis: Horizontal
-  jumpButton: Jump
   playerAnimator: {fileID: 1547912052}
   playerSprite: {fileID: 1547912053}
   playerCollider: {fileID: 0}

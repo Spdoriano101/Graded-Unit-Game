@@ -17,6 +17,7 @@ public class Timer_Long : MonoBehaviour
   
     void Start()
     {
+        //sets current time to starting time
         currentTime = startingTime;
     }
 
@@ -29,7 +30,7 @@ public class Timer_Long : MonoBehaviour
    
 
 
-    //states that when the eitme = 0 the game will finish and the player will be taken to the game over screen. 
+        //states that when the time = 0 the game will finish and the player will be taken to the game over screen. 
         if(currentTime <= 0)
         {
 

@@ -10,10 +10,8 @@ public class Player : MonoBehaviour
 
     // designer variables
     public float speed = 7;
-    public float jumpSpeed = 10;
     public Rigidbody2D physicsBody;
     public string horizontalAxis = "Horizontal";
-    public string jumpButton = "Jump";
 
     public Animator playerAnimator;
     public SpriteRenderer playerSprite;
