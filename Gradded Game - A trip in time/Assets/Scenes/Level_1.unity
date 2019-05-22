@@ -11277,11 +11277,11 @@ MonoBehaviour:
   textDisplay: {fileID: 2135105949}
   sentences:
   - 
-  - 'MARLOWE/JESSICA: HEY! What do you think you are doing! You''ve created a tear
-    in space and time!'
+  - 'HICKS: HEY! What do you think you are doing! You''ve created a tear in space
+    and time!'
   - 'EVIL SCIENTIST: Yes, I am well aware of that you simpleton! Dont Meddle with
     that portal there! '
-  - 'MARLOWE/JESSICA: You are a evil man! you can''t tell me what to do!'
+  - 'HICKS: You are a evil man! you can''t tell me what to do!'
   - 'EVIL SCIENTIST: No! What do you think you are doing!?'
   - 'DEV: (Psst, might be a good idea to head to the portal btw ;) )'
   typingSpeed: 0.02
