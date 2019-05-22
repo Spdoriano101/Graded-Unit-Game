@@ -147,9 +147,9 @@ public class HighScore : MonoBehaviour {
 
         }
 
+
         //Save the player prefs to disk
         PlayerPrefs.Save();
-
 
     }
 
