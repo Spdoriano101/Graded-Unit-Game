@@ -311,9 +311,9 @@ MonoBehaviour:
     \                Press                              or                              to
     move left\n\n\n\n\n\n\n                   Press                              or
     \                             to move Right\n\n\n\n\n\n\nPress/Hold                                                                              to
-    Jump\n\n\n\n\n\n\nKeep in mind, Walls are also your friend!\n\nAvoid the enimies
-    to try and not lose a life and collect the items to increase your score.\n\nHey
-    this is a platfromer after all! "
+    Jump\n\n\n\n\nKeep in mind, Walls are also your friend!\n\nAvoid the enimies to
+    try and not lose a life and collect the items to increase your score.\n\nHey this
+    is a platfromer after all! "
 --- !u!222 &816211598
 CanvasRenderer:
   m_ObjectHideFlags: 0
