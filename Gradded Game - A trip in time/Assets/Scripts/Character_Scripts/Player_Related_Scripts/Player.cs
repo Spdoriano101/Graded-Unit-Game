@@ -18,7 +18,7 @@ public class Player : MonoBehaviour
     public Collider2D playerCollider;
 
     public AudioSource Death;
-    public AudioSource Item_pickup;
+    
 
     public Lives livesObject;
 
