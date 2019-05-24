@@ -8351,8 +8351,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 3, y: 5.4}
+  m_Offset: {x: 0, y: 0.6092849}
+  m_Size: {x: 3, y: 4.18143}
   m_Direction: 0
 --- !u!114 &770319323
 MonoBehaviour:
@@ -10742,8 +10742,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 3, y: 5.4}
+  m_Offset: {x: 0, y: 0.7204299}
+  m_Size: {x: 3, y: 3.9591398}
   m_Direction: 0
 --- !u!114 &1082801790
 MonoBehaviour:
@@ -15492,7 +15492,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2057050133}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.4533234, y: -1.2543182, z: -0.2969747}
+  m_LocalPosition: {x: -5.4533234, y: -2.27, z: -0.2969747}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 946379628}
@@ -15574,8 +15574,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 3, y: 5.4}
+  m_Offset: {x: 0, y: 0.42506552}
+  m_Size: {x: 3, y: 4.5498686}
   m_Direction: 0
 --- !u!114 &2057050138
 MonoBehaviour:
@@ -15696,8 +15696,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 3, y: 6}
+  m_Offset: {x: 0, y: 0.7252655}
+  m_Size: {x: 3, y: 4.549469}
   m_Direction: 0
 --- !u!114 &2065964314
 MonoBehaviour:
