@@ -1643,7 +1643,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 6e2f71479b626b24f80c916cb42dc9eb, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.2
+  m_Volume: 0.14
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -7297,7 +7297,6 @@ MonoBehaviour:
   playerSprite: {fileID: 1497478906}
   playerCollider: {fileID: 1497478911}
   Death: {fileID: 1025954332}
-  Item_pickup: {fileID: 1701648845}
   livesObject: {fileID: 1318996456}
 --- !u!212 &1497478906
 SpriteRenderer:
@@ -9633,7 +9632,6 @@ MonoBehaviour:
   playerSprite: {fileID: 1889260113}
   playerCollider: {fileID: 1889260119}
   Death: {fileID: 1025954332}
-  Item_pickup: {fileID: 1701648845}
   livesObject: {fileID: 1318996456}
 --- !u!70 &1889260119
 CapsuleCollider2D:
