@@ -27,7 +27,7 @@ public class Battery_Item : MonoBehaviour {
         
         if (playerScript)
         {
-
+            Audio.Play();
 
 
             // audio to play when the assets with the player scirpt is collided with
