@@ -54,7 +54,7 @@ public class Player : MonoBehaviour
         velocity.y = physicsBody.velocity.y;
 
         // Give the velocity to the rigidbody
-        physicsBody.velocity = velocity;
+       physicsBody.velocity = velocity;
 
 
 

@@ -1,14 +1,42 @@
 fileFormatVersion: 2
 guid: 427cd2d2eedc03d46b04c74ccdb04735
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Marlowe Idle _0
-    21300002: Marlowe Idle _1
-    21300004: Marlowe Idle _2
-    21300006: Marlowe Idle _3
-    21300008: Marlowe Idle _4
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Marlowe Idle _0
+  - first:
+      213: 21300002
+    second: Marlowe Idle _1
+  - first:
+      213: 21300004
+    second: Marlowe Idle _2
+  - first:
+      213: 21300006
+    second: Marlowe Idle _3
+  - first:
+      213: 21300008
+    second: Marlowe Idle _4
+  - first:
+      213: -4825471166414388160
+    second: Marlowe_Idle_0
+  - first:
+      213: 2600540547679693794
+    second: Marlowe_Idle_1
+  - first:
+      213: 6585229279967057251
+    second: Marlowe_Idle_2
+  - first:
+      213: 5858142775423973993
+    second: Marlowe_Idle_3
+  - first:
+      213: 7459536112807487840
+    second: Marlowe_Idle_4
+  - first:
+      213: -1532147961183775259
+    second: Marlowe_Idle_3
   externalObjects: {}
-  serializedVersion: 6
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -28,6 +56,7 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -62,8 +91,10 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -74,7 +105,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -85,11 +117,12 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Marlowe Idle _0
+      name: Marlowe_Idle_0
       rect:
         serializedVersion: 2
         x: 0
@@ -103,13 +136,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a33b100b6e7dbe14ca0efd2a908c20bd
+      spriteID: 0440bf36a8b780db0800000000000000
+      internalID: -4825471166414388160
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marlowe Idle _1
+      name: Marlowe_Idle_1
       rect:
         serializedVersion: 2
         x: 216
@@ -123,13 +157,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45f3b4aec63471e44bab4ebfa9053c22
+      spriteID: 2eba27099d9f61420800000000000000
+      internalID: 2600540547679693794
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marlowe Idle _2
+      name: Marlowe_Idle_2
       rect:
         serializedVersion: 2
         x: 432
@@ -143,33 +178,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c665d364e4f04149863020817636b26
+      spriteID: 36510fcd32f636b50800000000000000
+      internalID: 6585229279967057251
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Marlowe Idle _3
-      rect:
-        serializedVersion: 2
-        x: 648
-        y: 732
-        width: 216
-        height: 732
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8585f6629f7820f4082c7c2a5b34a7a9
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Marlowe Idle _4
+      name: Marlowe_Idle_4
       rect:
         serializedVersion: 2
         x: 0
@@ -183,7 +199,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9756a6670665f84449fd5ebd0e13d734
+      spriteID: 069a6118298958760800000000000000
+      internalID: 7459536112807487840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marlowe_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 732
+        width: 216
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e55d460c87bcbae0800000000000000
+      internalID: -1532147961183775259
       vertices: []
       indices: 
       edges: []
@@ -192,11 +230,15 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 8f78e9f3af673654fb84b9e8060c1a94
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

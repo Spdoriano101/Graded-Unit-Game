@@ -1,17 +1,33 @@
 fileFormatVersion: 2
 guid: ef4101302af90e340b0c33803fe31745
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Keycap SpaceBAr_0
-    21300002: Keycap SpaceBAr_1
-    21300004: Keycap SpaceBAr_2
-    21300006: Keycap SpaceBAr_3
-    21300008: Keycap SpaceBAr_4
-    21300010: Keycap SpaceBAr_5
-    21300012: Keycap SpaceBAr_6
-    21300014: Keycap SpaceBAr_7
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Keycap SpaceBAr_0
+  - first:
+      213: 21300002
+    second: Keycap SpaceBAr_1
+  - first:
+      213: 21300004
+    second: Keycap SpaceBAr_2
+  - first:
+      213: 21300006
+    second: Keycap SpaceBAr_3
+  - first:
+      213: 21300008
+    second: Keycap SpaceBAr_4
+  - first:
+      213: 21300010
+    second: Keycap SpaceBAr_5
+  - first:
+      213: 21300012
+    second: Keycap SpaceBAr_6
+  - first:
+      213: 21300014
+    second: Keycap SpaceBAr_7
   externalObjects: {}
-  serializedVersion: 6
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -31,6 +47,7 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -65,8 +82,10 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -77,7 +96,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -88,6 +108,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -107,6 +128,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 1b81e06cbef4faf41bc935fe9fbaaec6
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -127,6 +149,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: f48962f104b97e34fa0e2b9f36f85f28
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -147,6 +170,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 75d6df6cf9c82574ba5187c516ee2761
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -167,6 +191,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: c15d17863f3b29a46bb56b3e543754bd
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -187,6 +212,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 1ea53aec8e795734d9cb628e8831bf90
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
@@ -207,6 +233,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 0dd43a2f635bfe546b5d45599f3e4d07
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
@@ -227,6 +254,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: edadfb032ecea1b42b3234a0b1c1fd30
+      internalID: 21300012
       vertices: []
       indices: 
       edges: []
@@ -247,6 +275,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 9025f728e175cfd4ab42cef6eea16888
+      internalID: 21300014
       vertices: []
       indices: 
       edges: []
@@ -255,11 +284,15 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 47ea4e5a9a704e049bce18583fd0e1bf
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
